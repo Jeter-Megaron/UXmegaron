@@ -7,8 +7,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
-// pesquisa hospedada no board do Miro (precisa estar público para visitantes)
-const RESEARCH_URL = "https://miro.com/app/board/uXjVKJqD4Uw=/";
+// pesquisa hospedada no board do Miro (link de compartilhamento público, view only)
+const RESEARCH_URL =
+  "https://miro.com/app/board/uXjVKJqD4Uw=/?share_link_id=616439177981";
 const RESEARCH_IMAGES = [
   "/gallery/cordel/cordel-arquitetura.webp",
   "/gallery/cordel/cordel-moodboard.webp",
