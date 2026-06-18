@@ -66,7 +66,9 @@ function ScrollStamp({
   const fromY = half((rows - 1) / 2 - row) * ROW_STEP;
   const x = useTransform(progress, [0, SETTLE], [fromX, 0]);
   const y = useTransform(progress, [0, SETTLE], [fromY, 0]);
-  const opacity = useTransform(progress, [0, 0.25, SETTLE], [0, 0.6, 1]);
+  // piso 0.22: a folha nunca fica totalmente invisível, então a seção "Além da
+  // rede" não chega a aparecer vazia ao entrar no viewport (correção da auditoria)
+  const opacity = useTransform(progress, [0, 0.3, SETTLE], [0.22, 0.75, 1]);
   const scale = useTransform(progress, [0, SETTLE], [0.8, 1]);
   return <motion.div style={{ x, y, opacity, scale }}>{children}</motion.div>;
 }

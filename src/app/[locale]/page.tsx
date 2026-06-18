@@ -127,7 +127,7 @@ export default async function Home({
               <h2 className="mt-3 font-display text-4xl font-bold tracking-tight text-ink">
                 {t("about.heading")}
               </h2>
-              <p className="mt-5 max-w-2xl text-lg leading-[1.7] text-body">{t("about.paragraph")}</p>
+              <p className="mt-5 max-w-xl text-lg leading-[1.7] text-body">{t("about.paragraph")}</p>
               <div className="mt-6 border-l-4 border-teal pl-5 md:mt-auto">
                 <p className="font-display text-2xl font-medium leading-snug text-ink">
                   {t("about.quote")}
