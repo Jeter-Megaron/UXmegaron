@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "cases": "Cases",
+    "gallery": "Other work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "casePage": {
+    "back": "← Cases",
+    "contextEyebrow": "CONTEXT",
+    "contextHeading": "Why it existed",
+    "didEyebrow": "WHAT I DID",
+    "resultsEyebrow": "RESULTS",
+    "screensEyebrow": "SCREENS",
+    "screensHeading": "The interface",
+    "screenAlt": "screen",
+    "nextCase": "NEXT CASE",
+    "home": "Back to home"
+  },
+  "hero": {
+    "eyebrow": "PORTFOLIO · PRODUCT DESIGN",
+    "title": "Product design for complex systems.",
+    "sub": "I turn complex operations and products, B2B and B2C, into clear experiences. From research to interface.",
+    "ctaCases": "View cases",
+    "ctaAbout": "About me"
+  },
+  "cases": {
+    "eyebrow": "CASES",
+    "title": "Selected work",
+    "sub": "Genuinely complex systems: two UX cases (PASTOR, FTTX) and one product (ASPEN METHOD).",
+    "cards": {
+      "pastor": {
+        "tag": "UX · Research",
+        "desc": "GPON network monitoring system. From discovery to MVP, guided by 41 users.",
+        "metric": "98%+ accuracy · 26,922 clients"
+      },
+      "fttx": {
+        "tag": "UX · Field app",
+        "desc": "Redesign of the app fiber technicians use 8h a day, focused on safety and accessibility.",
+        "metric": "Field adoption · offline mode"
+      },
+      "aspen": {
+        "tag": "PRODUCT · Education",
+        "desc": "Support for teachers to solve problems based on heuristics.",
+        "metric": "In use at universities (incl. U. Porto)"
+      }
+    }
+  },
+  "stamps": {
+    "eyebrow": "OTHER WORK",
+    "title": "Beyond the network",
+    "sub": "A collection of pieces outside the product track. My roots in the arts.",
+    "modalKicker": "OTHER WORK",
+    "dragHint": "drag to see more",
+    "imageLabel": "image",
+    "pubs": {
+      "subtitle": "Independent comics publications. Writing and illustration.",
+      "view": "View publication →",
+      "soon": "Coming soon",
+      "items": {
+        "limiar": {
+          "eyebrow": "2018 · INDIE COMIC",
+          "title": "Limiar",
+          "desc": "An original comic book I conceived, wrote, illustrated, designed and produced from start to finish. It came out in a 100-copy print run and launched at the 2018 International Comics Festival (FIQ).",
+          "details": "Print run: 100 copies · Roles: writing, art, layout and print production · Launch: FIQ 2018",
+          "tag": "ORIGINAL COMIC · INDEPENDENT PUBLICATION"
+        },
+        "linha": {
+          "eyebrow": "2017 · COLLECTIVE MAGAZINE",
+          "title": "Linha Alternativa #3",
+          "desc": "I took part in the third issue of Linha Alternativa, a magazine dedicated to independent comics production.",
+          "details": "Contribution: original story · Find my story on page 44 · Format: collective magazine",
+          "tag": "ORIGINAL COMIC · COLLECTIVE MAGAZINE"
+        },
+        "fruta": {
+          "eyebrow": "2021 · INDIE MAGAZINE",
+          "title": "Fruta Bruta (Jan 2021)",
+          "desc": "I took part in the January 2021 issue of Fruta Bruta, a magazine that gathers original work by different independent artists.",
+          "details": "Contribution: original story · Find my story on page 10 · Format: independent magazine",
+          "tag": "ORIGINAL COMIC · EDITORIAL PUBLICATION"
+        }
+      }
+    },
+    "cordelModal": {
+      "subtitle": "Ambiance research for a game: from the Caatinga and the Cariri architecture to the linework of cordel.",
+      "researchLabel": "Field research",
+      "researchIntro": "Historic façades of Crato, Barbalha and Juazeiro do Norte, plus old photos of the towns. Flora and fauna of the Araripe plateau. Reference research on woodcut prints.",
+      "researchCta": "View research →",
+      "siteLabel": "Game site",
+      "siteIntro": "The site I built for the game Cordel Encantado.",
+      "siteCta": "View site · soon"
+    },
+    "items": {
+      "historias": {
+        "title": "Histórias que Curam",
+        "category": "BOOK COVER",
+        "blurb": "Book cover — life blooming after pain.",
+        "caption": "Cover for the book \"Histórias que Curam\" (Stories that Heal, lives marked by courage against cancer), by Andreza Monteiro Cavalcante. The metaphor comes from Kintsugi, life that blooms even after pain. A brain made of flowers, minimalist composition and paper texture.",
+        "links": {
+          "buy": "Buy the book ↗",
+          "pdf": "Cover concept (PDF) ↗"
+        }
+      },
+      "cordel": {
+        "title": "Cordel Encantado",
+        "category": "RESEARCH · GAME",
+        "blurb": "Façade research as environment reference for a game.",
+        "caption": "Visual research of façades as environment reference for a game, connecting real architecture to the world of cordel."
+      },
+      "ilustracoes": {
+        "title": "Illustrations",
+        "category": "ILLUSTRATION",
+        "blurb": "Personal studies and illustrations.",
+        "caption": "Personal studies and illustrations, repertoire from my visual-arts roots."
+      },
+      "mapeando": {
+        "title": "Mapeando.sensíveis",
+        "category": "GRAPHIC DESIGN",
+        "blurb": "Artist mapping and art-catalog layout.",
+        "caption": "Graphic design for the catalog \"Mapeando.sensíveis: photography in UFCA's Visual Arts program\", published by Edições do Cariri. I did the artist mapping and the layout."
+      },
+      "tcc": {
+        "title": "HQs Autorais do Cariri",
+        "category": "RESEARCH · THESIS",
+        "blurb": "Mapping of indie comics production in Crajubar.",
+        "caption": "Undergraduate thesis: mapping and analysis of independent comics production in Crajubar, in the Cariri region of Brazil."
+      },
+      "hqs": {
+        "title": "Página Após Página",
+        "category": "WRITING · ILLUSTRATION",
+        "blurb": "Original comics in zines and indie magazines.",
+        "caption": "Original comics published in anthologies, fanzines and independent magazines. The writing and the illustration are mine."
+      },
+      "palavras": {
+        "title": "Palavras em Forma",
+        "category": "CONCRETE POETRY",
+        "blurb": "Text as image — language as visual experience.",
+        "caption": "Concrete poetry: text becomes image and language becomes a visual experience."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "heading": "Who I am and what I believe",
+    "paragraph": "I'm Megaron, a product designer for complex systems, B2B and B2C. I started in visual arts and graphic design. In 2021 I moved into UX/UI, chasing the problem that drives me: turning complexity into clarity. Today I work in Brisanet's telecom operation, on monitoring panels, field apps and internal systems where a good design decision saves hours and reduces risk.",
+    "quote": "I believe in metadesign and \"free design\": design as an open, investigable process, not a closed recipe."
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "heading": "Let's talk.",
+    "sub": "Open to opportunities in UX / Product Design, in PT and EN.",
+    "linkedin": "LinkedIn ↗"
+  },
+  "footer": {
+    "rights": "© 2026 Jéter Megaron"
+  },
+  "ascii": {
+    "label": "ASCII PORTRAIT",
+    "note": "replace with the real art HTML"
+  }
+}

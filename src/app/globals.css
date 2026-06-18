@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+/* ===== Design tokens — Portfólio Megaron ===== */
+@theme {
+  /* base */
+  --color-white: #ffffff;
+  --color-ink: #0f172a;        /* texto principal (navy-900) */
+  --color-dark: #0b1220;       /* seções escuras */
+  --color-darker: #070c16;     /* rodapé */
+  --color-card: #111c30;       /* cards sobre fundo escuro */
+  --color-tint: #f8fafc;       /* seção clara levemente tonal */
+
+  /* teal (accent) */
+  --color-teal: #14b8a6;
+  --color-teal-100: #ccfbf1;
+  --color-teal-300: #5eead4;
+  --color-teal-400: #2dd4bf;
+  --color-teal-700: #0f766e;
+
+  /* neutros de texto */
+  --color-body: #334155;
+  --color-muted: #475569;
+  --color-slate: #94a3b8;
+  --color-light: #cbd5e1;
+  --color-border: #e2e8f0;
+  --color-border-dark: #1e2a42;
+
+  /* tipografia */
+  --font-display: var(--font-space-grotesk);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-teal);
+  color: var(--color-dark);
+}
+
+/* cursor personalizado (só desktop com hover; classe adicionada via JS) */
+.has-custom-cursor,
+.has-custom-cursor * {
+  cursor: none !important;
+}
+/* tamanho natural 44px; o JS escala de 0.25 (dot ~11px) até 1 (anel) — nunca acima
+   de 1, para o raster não borrar */
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  background: var(--color-teal);
+  border: 1.5px solid transparent;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.25);
+  will-change: transform, opacity;
+  transition:
+    opacity 0.2s ease,
+    background-color 0.25s ease,
+    border-color 0.25s ease;
+}
+.cursor-dot.cursor-ring {
+  background: transparent;
+  border-color: var(--color-teal);
+}
+
+/* ===== selo postal: perfuração só na borda =====
+   camada 1 = grade de furos (círculos transparentes nos cruzamentos do tile);
+   camada 2 = retângulo sólido interno que tapa os furos do miolo (união das máscaras)
+   → sobram só os semicírculos recortados nas bordas. */
+.stamp-perf {
+  --hole: 4px; /* raio do furo */
+  --pitch: 14px; /* distância entre centros dos furos */
+  /* círculo centrado no tile + offset de meio passo → fileiras de furos caem
+     exatamente sobre as QUATRO bordas (round fecha direita/baixo também) */
+  -webkit-mask:
+    radial-gradient(circle var(--hole), #0000 98%, #000)
+      calc(var(--pitch) / -2) calc(var(--pitch) / -2) / var(--pitch) var(--pitch)
+      round,
+    linear-gradient(#000 0 0) var(--hole) var(--hole) /
+      calc(100% - 2 * var(--hole)) calc(100% - 2 * var(--hole)) no-repeat;
+  mask:
+    radial-gradient(circle var(--hole), #0000 98%, #000)
+      calc(var(--pitch) / -2) calc(var(--pitch) / -2) / var(--pitch) var(--pitch)
+      round,
+    linear-gradient(#000 0 0) var(--hole) var(--hole) /
+      calc(100% - 2 * var(--hole)) calc(100% - 2 * var(--hole)) no-repeat;
+  filter: drop-shadow(0 8px 16px rgb(0 0 0 / 0.3));
+}
+
+/* pulso sutil dos nós-hub do motivo de rede */
+@keyframes motifPulse {
+  0%, 100% { opacity: 0.08; transform: scale(1); transform-box: fill-box; transform-origin: center; }
+  50% { opacity: 0.22; transform: scale(1.15); transform-box: fill-box; transform-origin: center; }
+}
+.motif-pulse {
+  animation: motifPulse 3.2s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .motif-pulse { animation: none; }
+}

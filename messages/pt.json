@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "cases": "Cases",
+    "gallery": "Também faço",
+    "about": "Sobre",
+    "contact": "Contato"
+  },
+  "casePage": {
+    "back": "← Cases",
+    "contextEyebrow": "CONTEXTO",
+    "contextHeading": "Por que existia",
+    "didEyebrow": "O QUE EU FIZ",
+    "resultsEyebrow": "RESULTADOS",
+    "screensEyebrow": "TELAS",
+    "screensHeading": "A interface",
+    "screenAlt": "tela",
+    "nextCase": "PRÓXIMO CASE",
+    "home": "Voltar para a home"
+  },
+  "hero": {
+    "eyebrow": "PORTFÓLIO · PRODUCT DESIGN",
+    "title": "Design de produto para sistemas complexos.",
+    "sub": "Transformo operações e produtos complexos, B2B e B2C, em experiências claras. Da pesquisa à interface.",
+    "ctaCases": "Ver cases",
+    "ctaAbout": "Sobre mim"
+  },
+  "cases": {
+    "eyebrow": "CASES",
+    "title": "Trabalhos selecionados",
+    "sub": "Sistemas complexos de verdade: dois cases de UX (PASTOR, FTTX) e um de produto (ASPEN METHOD).",
+    "cards": {
+      "pastor": {
+        "tag": "UX · Pesquisa",
+        "desc": "Sistema de monitoramento da rede GPON. Do discovery ao MVP, guiado por 41 usuários.",
+        "metric": "98%+ assertividade · 26.922 clientes"
+      },
+      "fttx": {
+        "tag": "UX · App de campo",
+        "desc": "Reformulação do app que técnicos de fibra usam 8h por dia, com foco em segurança e acessibilidade.",
+        "metric": "Adoção em campo · modo offline"
+      },
+      "aspen": {
+        "tag": "PRODUTO · Educação",
+        "desc": "Suporte a professores para resolver problemas com base em heurísticas.",
+        "metric": "Em uso em universidades (incl. U. Porto)"
+      }
+    }
+  },
+  "stamps": {
+    "eyebrow": "TAMBÉM FAÇO",
+    "title": "Além da rede",
+    "sub": "Uma coleção de peças fora do eixo de produto. Minha origem nas artes.",
+    "modalKicker": "TAMBÉM FAÇO",
+    "dragHint": "arraste para ver mais",
+    "imageLabel": "imagem",
+    "pubs": {
+      "subtitle": "Publicações em quadrinhos independentes. Roteiro e ilustração.",
+      "view": "Ver publicação →",
+      "soon": "Em breve",
+      "items": {
+        "limiar": {
+          "eyebrow": "2018 · HQ INDEPENDENTE",
+          "title": "Limiar",
+          "desc": "História em quadrinhos autoral que concebi, roteirizei, ilustrei, diagramei e produzi do início ao fim. Saiu com tiragem de 100 exemplares e foi lançada no Festival Internacional de Quadrinhos (FIQ) de 2018.",
+          "details": "Tiragem: 100 exemplares · Funções: roteiro, arte, diagramação e produção gráfica · Lançamento: FIQ 2018",
+          "tag": "HQ AUTORAL · PUBLICAÇÃO INDEPENDENTE"
+        },
+        "linha": {
+          "eyebrow": "2017 · REVISTA COLETIVA",
+          "title": "Linha Alternativa #3",
+          "desc": "Participei da terceira edição da Linha Alternativa, revista dedicada à produção independente de quadrinhos.",
+          "details": "Participação: história autoral · Encontre minha história na página 44 · Formato: revista coletiva",
+          "tag": "HQ AUTORAL · REVISTA COLETIVA"
+        },
+        "fruta": {
+          "eyebrow": "2021 · REVISTA INDEPENDENTE",
+          "title": "Fruta Bruta (Jan/2021)",
+          "desc": "Participei da edição de janeiro de 2021 da revista Fruta Bruta, que reúne produções autorais de diferentes artistas independentes.",
+          "details": "Participação: história autoral · Encontre minha história na página 10 · Formato: revista independente",
+          "tag": "HQ AUTORAL · PUBLICAÇÃO EDITORIAL"
+        }
+      }
+    },
+    "cordelModal": {
+      "subtitle": "Pesquisa de ambientação para um game: da Caatinga e da arquitetura do Cariri ao traço do cordel.",
+      "researchLabel": "Pesquisa de Campo",
+      "researchIntro": "Fachadas históricas de Crato, Barbalha e Juazeiro do Norte, fotos antigas das cidades. Fauna e flora da Chapada do Araripe. Pesquisa referencial de xilogravuras.",
+      "researchCta": "Ver pesquisa →",
+      "siteLabel": "Site do game",
+      "siteIntro": "Site que desenvolvi para o game Cordel Encantado.",
+      "siteCta": "Ver site · em breve"
+    },
+    "items": {
+      "historias": {
+        "title": "Histórias que Curam",
+        "category": "CAPA DE LIVRO",
+        "blurb": "Capa de livro — a vida que floresce após a dor.",
+        "caption": "Capa do livro \"Histórias que Curam: vidas marcadas pela coragem contra o câncer\", de Andreza Monteiro Cavalcante. A metáfora vem do Kintsugi, a vida que floresce mesmo após a dor. Um cérebro feito de flores, composição minimalista e textura de papel.",
+        "links": {
+          "buy": "Comprar o livro ↗",
+          "pdf": "Conceito da capa (PDF) ↗"
+        }
+      },
+      "cordel": {
+        "title": "Cordel Encantado",
+        "category": "PESQUISA · GAME",
+        "blurb": "Pesquisa de fachadas como referência de ambientação.",
+        "caption": "Pesquisa visual de fachadas como referência de ambientação de um game, conectando arquitetura real ao universo do cordel."
+      },
+      "ilustracoes": {
+        "title": "Ilustrações",
+        "category": "ILUSTRAÇÃO",
+        "blurb": "Estudos e ilustrações autorais.",
+        "caption": "Estudos e ilustrações autorais, repertório da minha origem nas artes visuais."
+      },
+      "mapeando": {
+        "title": "Mapeando.sensíveis",
+        "category": "PROJETO GRÁFICO",
+        "blurb": "Mapeamento de artistas e catálogo de arte.",
+        "caption": "Projeto gráfico do catálogo \"Mapeando.sensíveis: a fotografia no curso de Artes Visuais da UFCA\", publicado pelas Edições do Cariri. Fiz o mapeamento de artistas e a diagramação."
+      },
+      "tcc": {
+        "title": "HQs Autorais do Cariri",
+        "category": "PESQUISA · TCC",
+        "blurb": "Mapeamento das HQs independentes do Crajubar.",
+        "caption": "TCC: mapeamento e análise da produção independente de histórias em quadrinhos no Crajubar, no Cariri cearense."
+      },
+      "hqs": {
+        "title": "Página Após Página",
+        "category": "ROTEIRO · ILUSTRAÇÃO",
+        "blurb": "Quadrinhos autorais em coletâneas e fanzines.",
+        "caption": "Produção autoral de quadrinhos publicada em coletâneas, fanzines e revistas independentes. O roteiro e a ilustração são meus."
+      },
+      "palavras": {
+        "title": "Palavras em Forma",
+        "category": "POESIA CONCRETA",
+        "blurb": "Texto em imagem e linguagem em experiência visual.",
+        "caption": "Poesia concreta: o texto vira imagem e a linguagem vira experiência visual."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "SOBRE",
+    "heading": "Quem sou e no que acredito",
+    "paragraph": "Sou o Megaron, designer de produto para sistemas complexos, B2B e B2C. Comecei nas artes visuais e no design gráfico. Em 2021 migrei para UX/UI atrás do problema que me move: transformar o complexo em claro. Hoje atuo na operação de telecom da Brisanet, em painéis de monitoramento, apps de campo e sistemas internos onde uma boa decisão de design economiza horas e reduz risco.",
+    "quote": "Acredito em metadesign e em Design livre: design como processo aberto e investigável, não receita fechada."
+  },
+  "contact": {
+    "eyebrow": "CONTATO",
+    "heading": "Vamos conversar.",
+    "sub": "Aberto a oportunidades em UX / Product Design, em PT e EN.",
+    "linkedin": "LinkedIn ↗"
+  },
+  "footer": {
+    "rights": "© 2026 Jéter Megaron"
+  },
+  "ascii": {
+    "label": "RETRATO EM ASCII",
+    "note": "substituir pelo HTML real da arte"
+  }
+}
