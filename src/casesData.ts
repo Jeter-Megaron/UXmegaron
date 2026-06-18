@@ -44,7 +44,7 @@ const casesPT: Record<string, CaseDetail> = {
       { label: "FERRAMENTAS", value: "Figma · pesquisa" },
     ],
     context:
-      "O sistema antigo de monitoramento era confuso e os dados nem sempre confiáveis. Mesmo assim, cerca de 100 colaboradores internos dependiam dele: analistas de monitoramento, líderes de suporte técnico e operadores que precisavam detectar rompimentos de fibra e problemas de sinal e agir antes que o cliente sentisse a queda.",
+      "O sistema antigo de monitoramento era confuso e os dados nem sempre confiáveis. Mesmo assim, cerca de 100 colaboradores internos dependiam dele: analistas de monitoramento, líderes de suporte técnico e operadores que precisavam detectar rompimentos de fibra e problemas de sinal, e agir antes que o cliente sentisse a queda.",
     did: {
       heading: "Dois ciclos: validar antes de escalar",
       intro:
@@ -63,8 +63,8 @@ const casesPT: Record<string, CaseDetail> = {
     results: {
       heading: "O impacto",
       stats: [
-        { value: "98,06%", label: "assertividade na detecção (agregação)" },
-        { value: "99,72%", label: "assertividade na detecção (individual)" },
+        { value: "98,06%", label: "precisão na detecção (agregação)" },
+        { value: "99,72%", label: "precisão na detecção (individual)" },
         { value: "< 1 min", label: "para processar e entregar, com ingestão a cada 15 min" },
         { value: "26.922", label: "clientes atendidos via chamados (Mai–Ago/2025)" },
       ],
@@ -79,7 +79,7 @@ const casesPT: Record<string, CaseDetail> = {
     eyebrow: "CASE · UX · APP DE CAMPO",
     title: "FTTX",
     impact:
-      "Reformulei o app que técnicos de fibra usam ~8h por dia. De uma ferramenta cheia de travamentos para uma operação mais rápida, segura e acessível.",
+      "Reformulei o app que técnicos de fibra usam 7–8h por dia. De uma ferramenta cheia de travamentos para uma operação mais rápida, segura e acessível.",
     meta: [
       { label: "PAPEL", value: "Product Designer (único)" },
       { label: "DURAÇÃO", value: "6 meses" },
@@ -91,7 +91,7 @@ const casesPT: Record<string, CaseDetail> = {
     did: {
       heading: "Pesquisa antes de desenhar",
       intro:
-        "Escolhi uma pesquisa quantitativa porque os técnicos são geograficamente dispersos e eu precisava de volume rápido. Em uma semana, 71 respostas mostraram onde mais doía.",
+        "Escolhi uma pesquisa quantitativa porque os técnicos são geograficamente dispersos e eu precisava de volume de respostas em pouco tempo. Em uma semana, 71 respostas mostraram onde mais doía.",
       bullets: [
         "~75% usavam o sistema 7–8h por dia, a jornada inteira.",
         "~13% relataram deficiência visual (miopia/astigmatismo). O sistema não tinha nenhum recurso de acessibilidade.",
@@ -106,7 +106,7 @@ const casesPT: Record<string, CaseDetail> = {
         { title: "Simplificação", desc: "Menus, visibilidade de botões e fluxos mais claros." },
       ],
       quote:
-        "Na refatoração, evitei grandes mudanças estruturais para não impor curva de aprendizado a quem usa o app 8h por dia. Ajustei os fluxos existentes para o técnico reconhecer o caminho.",
+        "Na reformulação, evitei grandes mudanças estruturais para não impor curva de aprendizado a quem usa o app 7–8h por dia. Ajustei os fluxos existentes para o técnico reconhecer o caminho.",
     },
     results: {
       heading: "O que mudou",
@@ -153,7 +153,7 @@ const casesPT: Record<string, CaseDetail> = {
       stats: [
         { value: "Em produção", label: "rodando hoje em universidades" },
         { value: "Univ. do Porto", label: "adoção internacional (Portugal)" },
-        { value: "Completo", label: "auth → gestão → análise, sozinho" },
+        { value: "Completo", label: "da autenticação à análise, sozinho" },
         { value: "Até 3 meses", label: "do zero ao produto" },
       ],
       note: "Sem métricas numéricas, mas o resultado fala por si: o ASPEN METHOD está em uso real em diversas universidades, incluindo a Universidade do Porto.",
@@ -217,7 +217,7 @@ const casesEN: Record<string, CaseDetail> = {
     eyebrow: "CASE · UX · FIELD APP",
     title: "FTTX",
     impact:
-      "I reworked the app that fiber technicians use ~8h a day. From a tool full of freezes to a faster, safer and more accessible operation.",
+      "I reworked the app that fiber technicians use 7–8 hours a day. From a tool full of freezes to a faster, safer and more accessible operation.",
     meta: [
       { label: "ROLE", value: "Product Designer (solo)" },
       { label: "DURATION", value: "6 months" },
@@ -225,13 +225,13 @@ const casesEN: Record<string, CaseDetail> = {
       { label: "TOOLS", value: "Figma · Miro · Maze · Jira" },
     ],
     context:
-      "FTTX (Fiber to the X) is the system for planning, monitoring and managing fiber-optic cabling. The internal app technicians use in the field piled up errors, freezes and poorly designed features. And it was used throughout the whole shift, 7–8h a day. I needed to solve equipment management, safety and the work routine.",
+      "FTTX (Fiber to the X) is the system for planning, monitoring and managing fiber-optic cabling. The internal app technicians use in the field piled up errors, freezes and poorly designed features. And it was used throughout the whole shift, 7–8 hours a day. I needed to solve equipment management, safety and the work routine.",
     did: {
       heading: "Research before designing",
       intro:
         "I chose a quantitative survey because the technicians are geographically dispersed and I needed volume fast. In one week, 71 responses showed where it hurt most.",
       bullets: [
-        "~75% used the system 7–8h a day, the whole shift.",
+        "~75% used the system 7–8 hours a day, the whole shift.",
         "~13% reported visual impairment (myopia/astigmatism). The system had no accessibility features at all.",
         "Errors, freezes and bugs were the number one frustration.",
         "An offline mode for areas without coverage was missing.",
@@ -244,7 +244,7 @@ const casesEN: Record<string, CaseDetail> = {
         { title: "Simplification", desc: "Clearer menus, button visibility and flows." },
       ],
       quote:
-        "In the rework, I avoided big structural changes so I would not impose a learning curve on someone who uses the app 8h a day. I adjusted the existing flows so the technician would recognize the path.",
+        "In the rework, I avoided big structural changes so I would not impose a learning curve on someone who uses the app 7–8 hours a day. I adjusted the existing flows so the technician would recognize the path.",
     },
     results: {
       heading: "What changed",
@@ -291,7 +291,7 @@ const casesEN: Record<string, CaseDetail> = {
       stats: [
         { value: "In production", label: "running today at universities" },
         { value: "Univ. of Porto", label: "international adoption (Portugal)" },
-        { value: "Complete", label: "auth → management → analysis, solo" },
+        { value: "Complete", label: "from authentication to analysis, solo" },
         { value: "Under 3 months", label: "from zero to product" },
       ],
       note: "No numeric metrics, but the result speaks for itself: ASPEN METHOD is in real use at several universities, including the University of Porto.",

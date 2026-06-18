@@ -32,11 +32,11 @@
       "pastor": {
         "tag": "UX · Pesquisa",
         "desc": "Sistema de monitoramento da rede GPON. Do discovery ao MVP, guiado por 41 usuários.",
-        "metric": "98%+ assertividade · 26.922 clientes"
+        "metric": "98%+ precisão · 26.922 clientes"
       },
       "fttx": {
         "tag": "UX · App de campo",
-        "desc": "Reformulação do app que técnicos de fibra usam 8h por dia, com foco em segurança e acessibilidade.",
+        "desc": "Reformulação do app que técnicos de fibra usam 7–8h por dia, com foco em segurança e acessibilidade.",
         "metric": "Adoção em campo · modo offline"
       },
       "aspen": {
@@ -83,7 +83,7 @@
     },
     "cordelModal": {
       "subtitle": "Pesquisa de ambientação para um game: da Caatinga e da arquitetura do Cariri ao traço do cordel.",
-      "researchLabel": "Pesquisa de Campo",
+      "researchLabel": "Pesquisa de campo",
       "researchIntro": "Fachadas históricas de Crato, Barbalha e Juazeiro do Norte, fotos antigas das cidades. Fauna e flora da Chapada do Araripe. Pesquisa referencial de xilogravuras.",
       "researchCta": "Ver pesquisa →",
       "siteLabel": "Site do game",
@@ -94,7 +94,7 @@
       "historias": {
         "title": "Histórias que Curam",
         "category": "CAPA DE LIVRO",
-        "blurb": "Capa de livro — a vida que floresce após a dor.",
+        "blurb": "Capa de livro: a vida que floresce após a dor.",
         "caption": "Capa do livro \"Histórias que Curam: vidas marcadas pela coragem contra o câncer\", de Andreza Monteiro Cavalcante. A metáfora vem do Kintsugi, a vida que floresce mesmo após a dor. Um cérebro feito de flores, composição minimalista e textura de papel.",
         "links": {
           "buy": "Comprar o livro ↗",
@@ -134,7 +134,7 @@
       "palavras": {
         "title": "Palavras em Forma",
         "category": "POESIA CONCRETA",
-        "blurb": "Texto em imagem e linguagem em experiência visual.",
+        "blurb": "Texto como imagem, linguagem como experiência visual.",
         "caption": "Poesia concreta: o texto vira imagem e a linguagem vira experiência visual."
       }
     }
@@ -142,7 +142,7 @@
   "about": {
     "eyebrow": "SOBRE",
     "heading": "Quem sou e no que acredito",
-    "paragraph": "Sou o Megaron, designer de produto para sistemas complexos, B2B e B2C. Comecei nas artes visuais e no design gráfico. Em 2021 migrei para UX/UI atrás do problema que me move: transformar o complexo em claro. Hoje atuo na operação de telecom da Brisanet, em painéis de monitoramento, apps de campo e sistemas internos onde uma boa decisão de design economiza horas e reduz risco.",
+    "paragraph": "Sou o Megaron, designer de produto para sistemas complexos, B2B e B2C. Comecei nas artes visuais e no design gráfico. Em 2021 migrei para UX/UI atrás do problema que me move: transformar o complexo em claro. Hoje atuo na operação de telecom da Brisanet, em painéis de monitoramento, apps de campo e sistemas internos em que uma boa decisão de design economiza horas e reduz risco.",
     "quote": "Acredito em metadesign e em Design livre: design como processo aberto e investigável, não receita fechada."
   },
   "contact": {

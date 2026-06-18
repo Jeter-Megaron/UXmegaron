@@ -32,11 +32,11 @@
       "pastor": {
         "tag": "UX · Research",
         "desc": "GPON network monitoring system. From discovery to MVP, guided by 41 users.",
-        "metric": "98%+ accuracy · 26,922 clients"
+        "metric": "98%+ accuracy · 26,922 customers"
       },
       "fttx": {
         "tag": "UX · Field app",
-        "desc": "Redesign of the app fiber technicians use 8h a day, focused on safety and accessibility.",
+        "desc": "Redesign of the app fiber technicians use 7–8 hours a day, focused on safety and accessibility.",
         "metric": "Field adoption · offline mode"
       },
       "aspen": {
@@ -94,7 +94,7 @@
       "historias": {
         "title": "Histórias que Curam",
         "category": "BOOK COVER",
-        "blurb": "Book cover — life blooming after pain.",
+        "blurb": "Book cover: life blooming after pain.",
         "caption": "Cover for the book \"Histórias que Curam\" (Stories that Heal, lives marked by courage against cancer), by Andreza Monteiro Cavalcante. The metaphor comes from Kintsugi, life that blooms even after pain. A brain made of flowers, minimalist composition and paper texture.",
         "links": {
           "buy": "Buy the book ↗",
@@ -134,7 +134,7 @@
       "palavras": {
         "title": "Palavras em Forma",
         "category": "CONCRETE POETRY",
-        "blurb": "Text as image — language as visual experience.",
+        "blurb": "Text as image, language as visual experience.",
         "caption": "Concrete poetry: text becomes image and language becomes a visual experience."
       }
     }
